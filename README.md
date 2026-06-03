@@ -1,10 +1,10 @@
-# Whisper Video Transcriber CLI
+# LemosPlatform - Whisper Video Transcriber CLI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI API](https://img.shields.io/badge/OpenAI-Whisper-orange.svg)](https://platform.openai.com/docs/guides/speech-to-text)
 
-A simple, robust, and developer-friendly Command Line Interface (CLI) tool designed to automate the process of extracting, splitting, and transcribing audio from video files using the OpenAI Whisper API.
+An open-source utility part of the **LemosPlatform** ecosystem. This is a simple, robust, and developer-friendly Command Line Interface (CLI) tool designed to automate the process of extracting, splitting, and transcribing audio from video files using the OpenAI Whisper API.
 
 OpenAI's Whisper API imposes a strict 25MB file size limit for audio uploads. **Whisper Video Transcriber CLI** solves this by automatically extracting audio from your high-definition video, splitting it into optimized segments (using FFmpeg segmenting), running transcriptions, and consolidating all transcripts into a single formatted text file.
 
